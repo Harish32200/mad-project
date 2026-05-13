@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights
+package com.harish.habittracker.feature.insights
 
-import com.ofalvai.habittracker.core.database.entity.HabitActionCount
-import com.ofalvai.habittracker.core.database.entity.HabitTopDay
-import com.ofalvai.habittracker.core.database.entity.SumActionCountByDay
-import com.ofalvai.habittracker.feature.insights.mapper.mapHabitActionCount
-import com.ofalvai.habittracker.feature.insights.mapper.mapHabitTopDay
-import com.ofalvai.habittracker.feature.insights.mapper.mapSumActionCountByDay
-import com.ofalvai.habittracker.feature.insights.model.HeatmapMonth
-import com.ofalvai.habittracker.feature.insights.model.TopDayItem
-import com.ofalvai.habittracker.feature.insights.model.TopHabitItem
+import com.harish.habittracker.core.database.entity.HabitActionCount
+import com.harish.habittracker.core.database.entity.HabitTopDay
+import com.harish.habittracker.core.database.entity.SumActionCountByDay
+import com.harish.habittracker.feature.insights.mapper.mapHabitActionCount
+import com.harish.habittracker.feature.insights.mapper.mapHabitTopDay
+import com.harish.habittracker.feature.insights.mapper.mapSumActionCountByDay
+import com.harish.habittracker.feature.insights.model.HeatmapMonth
+import com.harish.habittracker.feature.insights.model.TopDayItem
+import com.harish.habittracker.feature.insights.model.TopHabitItem
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentMapOf
 import org.junit.Assert.assertEquals

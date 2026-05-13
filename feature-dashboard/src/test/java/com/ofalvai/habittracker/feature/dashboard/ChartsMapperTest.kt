@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByMonthListToItemList
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByWeekListToItemList
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByMonth
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByWeek
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountChart.ChartItem
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByMonthListToItemList
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByWeekListToItemList
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByMonth
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByWeek
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountChart.ChartItem
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.time.LocalDate

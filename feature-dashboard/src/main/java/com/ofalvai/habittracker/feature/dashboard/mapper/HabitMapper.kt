@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.mapper
+package com.harish.habittracker.feature.dashboard.mapper
 
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
-import com.ofalvai.habittracker.core.database.entity.Habit as HabitEntity
-import com.ofalvai.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
+import com.harish.habittracker.core.database.entity.Habit as HabitEntity
+import com.harish.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
 
 fun mapHabitEntityToModel(habitsWithActions: List<HabitWithActionsEntity>): ImmutableList<HabitWithActions> {
     return habitsWithActions.map {

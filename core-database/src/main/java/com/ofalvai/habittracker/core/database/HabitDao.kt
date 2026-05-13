@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.database
+package com.harish.habittracker.core.database
 
 import androidx.room.*
-import com.ofalvai.habittracker.core.database.entity.*
+import com.harish.habittracker.core.database.entity.*
 import kotlinx.coroutines.flow.Flow
 import java.time.Instant
 import java.time.LocalDate

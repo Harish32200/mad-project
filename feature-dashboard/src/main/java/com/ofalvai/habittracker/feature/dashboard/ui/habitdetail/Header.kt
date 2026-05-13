@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.habitdetail
+package com.harish.habittracker.feature.dashboard.ui.habitdetail
 
 import androidx.annotation.FloatRange
 import androidx.compose.animation.*
@@ -48,17 +48,17 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.component.HabitColorPicker
-import com.ofalvai.habittracker.core.ui.component.SingleStat
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.theme.*
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.model.SingleStats
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.component.HabitColorPicker
+import com.harish.habittracker.core.ui.component.SingleStat
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.theme.*
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.model.SingleStats
 import kotlin.math.roundToInt
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.R as coreR
 
 private const val SCROLL_COLLAPSE_THRESHOLD = 10
 

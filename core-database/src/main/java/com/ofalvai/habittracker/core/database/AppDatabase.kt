@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.database
+package com.harish.habittracker.core.database
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.ofalvai.habittracker.core.database.entity.Action
-import com.ofalvai.habittracker.core.database.entity.Habit
+import com.harish.habittracker.core.database.entity.Action
+import com.harish.habittracker.core.database.entity.Habit
 
 @Database(
     entities = [

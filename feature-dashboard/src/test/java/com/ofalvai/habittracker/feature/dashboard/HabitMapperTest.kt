@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
-import com.ofalvai.habittracker.core.database.entity.ActionCompletionRate
-import com.ofalvai.habittracker.core.database.entity.ActionCountByWeek
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.ActionHistory
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapHabitEntityToModel
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapHabitSingleStats
-import com.ofalvai.habittracker.feature.dashboard.ui.model.SingleStats
+import com.harish.habittracker.core.database.entity.ActionCompletionRate
+import com.harish.habittracker.core.database.entity.ActionCountByWeek
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.ActionHistory
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.feature.dashboard.mapper.mapHabitEntityToModel
+import com.harish.habittracker.feature.dashboard.mapper.mapHabitSingleStats
+import com.harish.habittracker.feature.dashboard.ui.model.SingleStats
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList
 import org.junit.Assert.assertEquals
@@ -34,9 +34,9 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.OffsetDateTime
 import java.time.temporal.ChronoUnit
-import com.ofalvai.habittracker.core.database.entity.Action as ActionEntity
-import com.ofalvai.habittracker.core.database.entity.Habit as HabitEntity
-import com.ofalvai.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
+import com.harish.habittracker.core.database.entity.Action as ActionEntity
+import com.harish.habittracker.core.database.entity.Habit as HabitEntity
+import com.harish.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
 
 class HabitMapperTest {
 

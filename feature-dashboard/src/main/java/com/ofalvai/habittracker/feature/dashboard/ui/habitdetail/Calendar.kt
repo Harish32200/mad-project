@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.habitdetail
+package com.harish.habittracker.feature.dashboard.ui.habitdetail
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -34,11 +34,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import com.kizitonwose.calendar.core.CalendarDay
 import com.kizitonwose.calendar.core.DayPosition
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.ui.component.HorizontalMonthCalendar
-import com.ofalvai.habittracker.core.ui.recomposition.StableHolder
-import com.ofalvai.habittracker.core.ui.semantics.habitActionSemantics
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.ui.component.HorizontalMonthCalendar
+import com.harish.habittracker.core.ui.recomposition.StableHolder
+import com.harish.habittracker.core.ui.semantics.habitActionSemantics
+import com.harish.habittracker.core.ui.theme.LocalAppColors
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.YearMonth

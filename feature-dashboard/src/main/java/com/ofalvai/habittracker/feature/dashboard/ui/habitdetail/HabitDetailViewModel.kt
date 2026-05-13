@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.habitdetail
+package com.harish.habittracker.feature.dashboard.ui.habitdetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.dashboard.mapper.actionsToHistory
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByMonth
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByMonthListToItemList
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByWeek
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapActionCountByWeekListToItemList
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapHabitSingleStats
-import com.ofalvai.habittracker.feature.dashboard.mapper.toEntity
-import com.ofalvai.habittracker.feature.dashboard.mapper.toUIColor
-import com.ofalvai.habittracker.feature.dashboard.repo.ActionRepository
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByMonth
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByWeek
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountChart
-import com.ofalvai.habittracker.feature.dashboard.ui.model.SingleStats
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.dashboard.mapper.actionsToHistory
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByMonth
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByMonthListToItemList
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByWeek
+import com.harish.habittracker.feature.dashboard.mapper.mapActionCountByWeekListToItemList
+import com.harish.habittracker.feature.dashboard.mapper.mapHabitSingleStats
+import com.harish.habittracker.feature.dashboard.mapper.toEntity
+import com.harish.habittracker.feature.dashboard.mapper.toUIColor
+import com.harish.habittracker.feature.dashboard.repo.ActionRepository
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByMonth
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByWeek
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountChart
+import com.harish.habittracker.feature.dashboard.ui.model.SingleStats
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.toImmutableList

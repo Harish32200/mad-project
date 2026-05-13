@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.component
+package com.harish.habittracker.core.ui.component
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.FilledTonalButton
@@ -22,7 +22,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.ofalvai.habittracker.core.ui.R
+import com.harish.habittracker.core.ui.R
 
 @Composable
 fun ConfirmationDialog(

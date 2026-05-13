@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.database.entity
+package com.harish.habittracker.core.database.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

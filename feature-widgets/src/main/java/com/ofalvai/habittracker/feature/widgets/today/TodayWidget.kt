@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.widgets.today
+package com.harish.habittracker.feature.widgets.today
 
 import android.content.Context
 import android.widget.RemoteViews
@@ -46,17 +46,17 @@ import androidx.glance.layout.padding
 import androidx.glance.layout.size
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitDayView
-import com.ofalvai.habittracker.core.ui.theme.composeColor
-import com.ofalvai.habittracker.feature.widgets.GlanceTheme
-import com.ofalvai.habittracker.feature.widgets.R
-import com.ofalvai.habittracker.feature.widgets.base.AppWidgetRoot
-import com.ofalvai.habittracker.feature.widgets.base.clickToMainScreen
-import com.ofalvai.habittracker.feature.widgets.base.stringResource
-import com.ofalvai.habittracker.feature.widgets.base.toColorInt
-import com.ofalvai.habittracker.feature.widgets.toModel
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitDayView
+import com.harish.habittracker.core.ui.theme.composeColor
+import com.harish.habittracker.feature.widgets.GlanceTheme
+import com.harish.habittracker.feature.widgets.R
+import com.harish.habittracker.feature.widgets.base.AppWidgetRoot
+import com.harish.habittracker.feature.widgets.base.clickToMainScreen
+import com.harish.habittracker.feature.widgets.base.stringResource
+import com.harish.habittracker.feature.widgets.base.toColorInt
+import com.harish.habittracker.feature.widgets.toModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import java.time.LocalDate

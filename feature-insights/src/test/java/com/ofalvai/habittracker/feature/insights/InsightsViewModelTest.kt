@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights
+package com.harish.habittracker.feature.insights
 
 import app.cash.turbine.test
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.database.entity.SumActionCountByDay
-import com.ofalvai.habittracker.core.testing.MainCoroutineRule
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.insights.model.HeatmapMonth
-import com.ofalvai.habittracker.feature.insights.ui.InsightsViewModel
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.database.entity.SumActionCountByDay
+import com.harish.habittracker.core.testing.MainCoroutineRule
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.insights.model.HeatmapMonth
+import com.harish.habittracker.feature.insights.ui.InsightsViewModel
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentMapOf
 import kotlinx.coroutines.flow.MutableStateFlow

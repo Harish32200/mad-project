@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.widgets.base
+package com.harish.habittracker.feature.widgets.base
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -42,9 +42,9 @@ import androidx.glance.layout.RowScope
 import androidx.glance.layout.Spacer
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.padding
-import com.ofalvai.habittracker.feature.widgets.GlanceTheme
-import com.ofalvai.habittracker.feature.widgets.LocalGlanceMaterialColors
-import com.ofalvai.habittracker.feature.widgets.R
+import com.harish.habittracker.feature.widgets.GlanceTheme
+import com.harish.habittracker.feature.widgets.LocalGlanceMaterialColors
+import com.harish.habittracker.feature.widgets.R
 
 fun Color.toColorInt(): Int {
     // This isn't 100% correct, but works with SRGB color space

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.model
+package com.harish.habittracker.feature.dashboard.ui.model
 
 enum class DashboardConfig {
     FiveDay,

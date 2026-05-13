@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.ofalvai.habittracker.core.model'
+    namespace 'com.harish.habittracker.core.model'
 }
 
 

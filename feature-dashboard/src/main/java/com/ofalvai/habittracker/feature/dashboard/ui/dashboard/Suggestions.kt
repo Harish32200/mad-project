@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard
+package com.harish.habittracker.feature.dashboard.ui.dashboard
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
-import com.ofalvai.habittracker.core.common.R as commonR
+import com.harish.habittracker.core.common.R as commonR
 
 object Suggestions {
 

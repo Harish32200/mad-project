@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.mapper
+package com.harish.habittracker.feature.dashboard.mapper
 
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.ActionHistory
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.ActionHistory
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZoneId
-import com.ofalvai.habittracker.core.database.entity.Action as ActionEntity
+import com.harish.habittracker.core.database.entity.Action as ActionEntity
 
 private const val RECENT_ACTIONS_PER_HABIT = 30 // Max number of days of any dashboard configs
 

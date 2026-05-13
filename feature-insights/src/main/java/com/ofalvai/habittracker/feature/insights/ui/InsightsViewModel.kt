@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.ui
+package com.harish.habittracker.feature.insights.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.insights.mapper.mapHabitActionCount
-import com.ofalvai.habittracker.feature.insights.mapper.mapHabitTopDay
-import com.ofalvai.habittracker.feature.insights.mapper.mapSumActionCountByDay
-import com.ofalvai.habittracker.feature.insights.mapper.toModel
-import com.ofalvai.habittracker.feature.insights.model.HeatmapMonth
-import com.ofalvai.habittracker.feature.insights.model.TopDayItem
-import com.ofalvai.habittracker.feature.insights.model.TopHabitItem
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.insights.mapper.mapHabitActionCount
+import com.harish.habittracker.feature.insights.mapper.mapHabitTopDay
+import com.harish.habittracker.feature.insights.mapper.mapSumActionCountByDay
+import com.harish.habittracker.feature.insights.mapper.toModel
+import com.harish.habittracker.feature.insights.model.HeatmapMonth
+import com.harish.habittracker.feature.insights.model.TopDayItem
+import com.harish.habittracker.feature.insights.model.TopHabitItem
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList

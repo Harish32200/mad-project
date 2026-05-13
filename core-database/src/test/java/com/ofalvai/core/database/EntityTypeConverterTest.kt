@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.ofalvai.core.database
+package com.harish.core.database
 
-import com.ofalvai.habittracker.core.database.EntityTypeConverters
+import com.harish.habittracker.core.database.EntityTypeConverters
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Test

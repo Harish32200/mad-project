@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.database
+package com.harish.habittracker.core.database
 
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.ofalvai.habittracker.core.database.entity.*
-import com.ofalvai.habittracker.core.testing.BaseInstrumentedTest
+import com.harish.habittracker.core.database.entity.*
+import com.harish.habittracker.core.testing.BaseInstrumentedTest
 import kotlinx.coroutines.test.runTest
 import org.junit.After
 import org.junit.Assert.assertEquals

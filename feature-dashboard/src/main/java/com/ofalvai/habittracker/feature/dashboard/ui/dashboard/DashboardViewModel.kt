@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard
+package com.harish.habittracker.feature.dashboard.ui.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ofalvai.habittracker.core.common.AppPreferences
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.OnboardingState
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.dashboard.mapper.mapHabitEntityToModel
-import com.ofalvai.habittracker.feature.dashboard.repo.ActionRepository
-import com.ofalvai.habittracker.feature.dashboard.ui.model.DashboardConfig
+import com.harish.habittracker.core.common.AppPreferences
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.OnboardingState
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.dashboard.mapper.mapHabitEntityToModel
+import com.harish.habittracker.feature.dashboard.repo.ActionRepository
+import com.harish.habittracker.feature.dashboard.ui.model.DashboardConfig
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.channels.Channel
@@ -43,7 +43,7 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 import javax.inject.Inject
-import com.ofalvai.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
+import com.harish.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
 
 enum class DashboardEvent {
     ToggleActionError,

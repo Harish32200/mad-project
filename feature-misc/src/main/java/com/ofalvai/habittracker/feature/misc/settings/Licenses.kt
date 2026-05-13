@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.settings
+package com.harish.habittracker.feature.misc.settings
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedVisibility
@@ -51,10 +51,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
-import com.ofalvai.habittracker.core.ui.component.AppDefaultAppBar
-import com.ofalvai.habittracker.feature.misc.R
+import com.harish.habittracker.core.ui.component.AppDefaultAppBar
+import com.harish.habittracker.feature.misc.R
 import kotlinx.collections.immutable.ImmutableList
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.R as coreR
 
 @Composable
 fun LicensesScreen(viewModel: LicensesViewModel, navigateBack: () -> Unit) {

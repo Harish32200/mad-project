@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.compact
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view.compact
 
 internal object Constants {
     const val DAY_COUNT = 7

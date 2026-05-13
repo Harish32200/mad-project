@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard
+package com.harish.habittracker.feature.dashboard.ui.dashboard
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.Image
@@ -50,30 +50,30 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.ofalvai.habittracker.core.common.OnboardingState
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.component.AppBarOverflowMenuAction
-import com.ofalvai.habittracker.core.ui.component.AppDefaultRootAppBar
-import com.ofalvai.habittracker.core.ui.component.ContentWithPlaceholder
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.state.asEffect
-import com.ofalvai.habittracker.core.ui.theme.AppTextStyle
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.DashboardIcons
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.compact.CompactHabitList
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.fiveday.FiveDayHabitList
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.minicalendar.MiniCalendarHabitList
-import com.ofalvai.habittracker.feature.dashboard.ui.model.DashboardConfig
+import com.harish.habittracker.core.common.OnboardingState
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.component.AppBarOverflowMenuAction
+import com.harish.habittracker.core.ui.component.AppDefaultRootAppBar
+import com.harish.habittracker.core.ui.component.ContentWithPlaceholder
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.state.asEffect
+import com.harish.habittracker.core.ui.theme.AppTextStyle
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.DashboardIcons
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.compact.CompactHabitList
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.fiveday.FiveDayHabitList
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.minicalendar.MiniCalendarHabitList
+import com.harish.habittracker.feature.dashboard.ui.model.DashboardConfig
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.launch
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.R as coreR
 
 @Composable
 fun DashboardScreen(

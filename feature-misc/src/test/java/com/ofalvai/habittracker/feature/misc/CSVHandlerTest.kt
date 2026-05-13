@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc
+package com.harish.habittracker.feature.misc
 
-import com.ofalvai.habittracker.core.database.entity.Action
-import com.ofalvai.habittracker.core.database.entity.Habit
-import com.ofalvai.habittracker.feature.misc.export.CSVHandler
+import com.harish.habittracker.core.database.entity.Action
+import com.harish.habittracker.core.database.entity.Habit
+import com.harish.habittracker.feature.misc.export.CSVHandler
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.io.StringReader

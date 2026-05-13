@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.repo
+package com.harish.habittracker.feature.dashboard.repo
 
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Action
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Action
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import java.time.LocalDate
@@ -26,7 +26,7 @@ import java.time.LocalTime
 import java.time.OffsetDateTime
 import javax.inject.Inject
 import javax.inject.Singleton
-import com.ofalvai.habittracker.core.database.entity.Action as ActionEntity
+import com.harish.habittracker.core.database.entity.Action as ActionEntity
 
 @Singleton
 class ActionRepository @Inject constructor(

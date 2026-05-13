@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.archive
+package com.harish.habittracker.feature.misc.archive
 
 import android.text.format.DateUtils
 import androidx.compose.foundation.background
@@ -55,22 +55,22 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.component.AppDefaultAppBar
-import com.ofalvai.habittracker.core.ui.component.ConfirmationDialog
-import com.ofalvai.habittracker.core.ui.component.ContentWithPlaceholder
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.state.asEffect
-import com.ofalvai.habittracker.core.ui.theme.AppTextStyle
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.misc.R
-import com.ofalvai.habittracker.feature.misc.archive.model.ArchivedHabit
+import com.harish.habittracker.core.ui.component.AppDefaultAppBar
+import com.harish.habittracker.core.ui.component.ConfirmationDialog
+import com.harish.habittracker.core.ui.component.ContentWithPlaceholder
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.state.asEffect
+import com.harish.habittracker.core.ui.theme.AppTextStyle
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.misc.R
+import com.harish.habittracker.feature.misc.archive.model.ArchivedHabit
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.launch
 import java.time.Instant
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.R as coreR
 
 @Composable
 fun ArchiveScreen(

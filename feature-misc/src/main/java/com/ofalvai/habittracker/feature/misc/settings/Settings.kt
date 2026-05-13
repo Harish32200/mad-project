@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.settings
+package com.harish.habittracker.feature.misc.settings
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -43,11 +43,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.component.AppDefaultAppBar
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.core.ui.theme.isDynamicThemeAvailable
-import com.ofalvai.habittracker.feature.misc.R
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.component.AppDefaultAppBar
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.theme.isDynamicThemeAvailable
+import com.harish.habittracker.feature.misc.R
+import com.harish.habittracker.core.ui.R as coreR
 
 @SuppressLint("ComposableLambdaParameterNaming")
 @Composable
@@ -245,7 +245,7 @@ private fun Context.openUrl(url: String) {
 fun PreviewSettingsScreen() {
     PreviewTheme {
         SettingsScreen(
-            appInfo = AppInfo(versionName = "1.0.0", buildType = "debug", appId = "com.ofalvai.habittracker", urlPrivacyPolicy = "", urlSourceCode = ""),
+            appInfo = AppInfo(versionName = "1.0.0", buildType = "debug", appId = "com.harish.habittracker", urlPrivacyPolicy = "", urlSourceCode = ""),
             crashReportingEnabled = true,
             dynamicColorEnabled = true,
             onBack = {},

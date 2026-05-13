@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.widgets.base
+package com.harish.habittracker.feature.widgets.base
 
 import android.app.Application
 import android.content.Intent
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.feature.widgets.today.TodayWidgetReceiver
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.feature.widgets.today.TodayWidgetReceiver
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import javax.inject.Inject

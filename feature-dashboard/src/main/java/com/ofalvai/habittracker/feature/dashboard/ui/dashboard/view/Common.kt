@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view
 
 import android.os.Build
 import android.os.VibrationEffect
@@ -49,12 +49,12 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.core.content.getSystemService
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.common.VIBRATE_PATTERN_TOGGLE
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
+import com.harish.habittracker.core.common.VIBRATE_PATTERN_TOGGLE
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
 import kotlinx.collections.immutable.ImmutableList
 import org.burnoutcrew.reorderable.*
 import java.time.LocalDate

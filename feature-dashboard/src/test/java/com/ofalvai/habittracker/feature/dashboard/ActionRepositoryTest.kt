@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.feature.dashboard.repo.ActionRepository
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.feature.dashboard.repo.ActionRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
@@ -30,7 +30,7 @@ import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZoneId
-import com.ofalvai.habittracker.core.database.entity.Action as ActionEntity
+import com.harish.habittracker.core.database.entity.Action as ActionEntity
 
 class ActionRepositoryTest {
 

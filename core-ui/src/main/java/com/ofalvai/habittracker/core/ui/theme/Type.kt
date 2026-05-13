@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.theme
+package com.harish.habittracker.core.ui.theme
 
 import androidx.compose.material3.MaterialTheme.typography
 import androidx.compose.material3.Typography
@@ -27,7 +27,7 @@ import androidx.compose.ui.text.googlefonts.Font
 import androidx.compose.ui.text.googlefonts.GoogleFont
 import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.sp
-import com.ofalvai.habittracker.core.ui.R
+import com.harish.habittracker.core.ui.R
 
 private val provider = GoogleFont.Provider(
     providerAuthority = "com.google.android.gms.fonts",

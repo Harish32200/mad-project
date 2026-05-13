@@ -6,7 +6,7 @@ plugins {
 apply plugin: 'com.google.devtools.ksp'
 
 android {
-    namespace 'com.ofalvai.habittracker.core.ui'
+    namespace 'com.harish.habittracker.core.ui'
 }
 
 dependencies {

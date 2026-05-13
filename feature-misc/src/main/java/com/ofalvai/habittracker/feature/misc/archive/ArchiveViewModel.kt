@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.archive
+package com.harish.habittracker.feature.misc.archive
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.database.entity.HabitById
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.misc.archive.model.ArchivedHabit
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.database.entity.HabitById
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.misc.archive.model.ArchivedHabit
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
@@ -33,7 +33,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
-import com.ofalvai.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
+import com.harish.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
 
 enum class ArchiveEvent {
     UnarchiveError,

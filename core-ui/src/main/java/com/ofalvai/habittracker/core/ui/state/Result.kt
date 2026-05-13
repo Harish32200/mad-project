@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.state
+package com.harish.habittracker.core.ui.state
 
 sealed class Result<out T> {
     data class Success<R>(val value: R) : Result<R>()

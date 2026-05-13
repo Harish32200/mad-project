@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.addhabit
+package com.harish.habittracker.feature.dashboard.ui.addhabit
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.feature.dashboard.mapper.toEntity
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.feature.dashboard.mapper.toEntity
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.Flow

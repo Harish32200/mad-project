@@ -6,10 +6,10 @@ plugins {
 apply plugin: 'com.google.devtools.ksp'
 
 android {
-    namespace 'com.ofalvai.habittracker.feature.dashboard'
+    namespace 'com.harish.habittracker.feature.dashboard'
 
     defaultConfig {
-        testInstrumentationRunner 'com.ofalvai.habittracker.core.testing.HiltTestRunner'
+        testInstrumentationRunner 'com.harish.habittracker.core.testing.HiltTestRunner'
     }
 }
 

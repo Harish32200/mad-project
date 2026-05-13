@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.theme
+package com.harish.habittracker.core.ui.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.graphics.Color
-import com.ofalvai.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.Habit
 
 data class AppColors(
     val successContainer: Color,

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.mapper
+package com.harish.habittracker.feature.dashboard.mapper
 
-import com.ofalvai.habittracker.core.database.entity.ActionCompletionRate
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByMonth
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountByWeek
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountChart
-import com.ofalvai.habittracker.feature.dashboard.ui.model.SingleStats
+import com.harish.habittracker.core.database.entity.ActionCompletionRate
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByMonth
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountByWeek
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountChart
+import com.harish.habittracker.feature.dashboard.ui.model.SingleStats
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import java.time.Instant
@@ -34,8 +34,8 @@ import java.time.ZoneId
 import java.time.temporal.IsoFields
 import java.time.temporal.WeekFields
 import java.util.Locale
-import com.ofalvai.habittracker.core.database.entity.ActionCountByMonth as ActionCountByMonthEntity
-import com.ofalvai.habittracker.core.database.entity.ActionCountByWeek as ActionCountByWeekEntity
+import com.harish.habittracker.core.database.entity.ActionCountByMonth as ActionCountByMonthEntity
+import com.harish.habittracker.core.database.entity.ActionCountByWeek as ActionCountByWeekEntity
 
 fun mapHabitSingleStats(
     completionRate: ActionCompletionRate,

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.settings
+package com.harish.habittracker.feature.misc.settings
 
 import androidx.lifecycle.ViewModel
-import com.ofalvai.habittracker.core.common.AppPreferences
+import com.harish.habittracker.core.common.AppPreferences
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import javax.inject.Inject

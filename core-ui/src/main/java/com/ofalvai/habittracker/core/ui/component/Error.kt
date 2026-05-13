@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.component
+package com.harish.habittracker.core.ui.component
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -32,9 +32,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.R
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.R
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.PreviewTheme
 
 @Composable
 fun ErrorView(

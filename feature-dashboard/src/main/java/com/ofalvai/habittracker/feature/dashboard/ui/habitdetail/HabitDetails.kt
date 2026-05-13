@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.habitdetail
+package com.harish.habittracker.feature.dashboard.ui.habitdetail
 
 import android.os.Vibrator
 import androidx.compose.foundation.background
@@ -52,24 +52,24 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.content.getSystemService
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.common.VIBRATE_PATTERN_TOGGLE
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.ActionHistory
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.ui.component.CalendarDayLegend
-import com.ofalvai.habittracker.core.ui.component.CalendarPager
-import com.ofalvai.habittracker.core.ui.component.ConfirmationDialog
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.recomposition.StableHolder
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.state.asEffect
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.core.ui.theme.composeColor
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.vibrateCompat
-import com.ofalvai.habittracker.feature.dashboard.ui.model.ActionCountChart
-import com.ofalvai.habittracker.feature.dashboard.ui.model.SingleStats
+import com.harish.habittracker.core.common.VIBRATE_PATTERN_TOGGLE
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.ActionHistory
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.ui.component.CalendarDayLegend
+import com.harish.habittracker.core.ui.component.CalendarPager
+import com.harish.habittracker.core.ui.component.ConfirmationDialog
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.recomposition.StableHolder
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.state.asEffect
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.theme.composeColor
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.vibrateCompat
+import com.harish.habittracker.feature.dashboard.ui.model.ActionCountChart
+import com.harish.habittracker.feature.dashboard.ui.model.SingleStats
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.cancel
 import java.time.Instant

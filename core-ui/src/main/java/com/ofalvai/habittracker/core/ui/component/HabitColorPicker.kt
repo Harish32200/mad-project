@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.component
+package com.harish.habittracker.core.ui.component
 
 import androidx.compose.animation.core.Transition
 import androidx.compose.animation.core.animateDp
@@ -52,10 +52,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.core.ui.theme.composeColor
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.theme.composeColor
 
 enum class ColorPickerState { Default, Selected }
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.testing
+package com.harish.habittracker.core.testing
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import org.junit.Rule

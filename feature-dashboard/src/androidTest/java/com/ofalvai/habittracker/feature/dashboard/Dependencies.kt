@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
 import android.app.Application
 import android.content.SharedPreferences
 import android.preference.PreferenceManager
 import androidx.room.Room
-import com.ofalvai.habittracker.core.database.AppDatabase
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.database.PersistenceModule
+import com.harish.habittracker.core.database.AppDatabase
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.database.PersistenceModule
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.components.SingletonComponent

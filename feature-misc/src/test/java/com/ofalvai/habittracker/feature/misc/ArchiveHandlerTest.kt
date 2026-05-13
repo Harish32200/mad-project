@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc
+package com.harish.habittracker.feature.misc
 
-import com.ofalvai.habittracker.feature.misc.export.ArchiveHandler
-import com.ofalvai.habittracker.feature.misc.export.BackupContent
+import com.harish.habittracker.feature.misc.export.ArchiveHandler
+import com.harish.habittracker.feature.misc.export.BackupContent
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import java.io.ByteArrayInputStream

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.export
+package com.harish.habittracker.feature.misc.export
 
 import android.content.Intent
 import android.text.format.DateUtils
@@ -57,17 +57,17 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat.startActivity
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.component.AppDefaultAppBar
-import com.ofalvai.habittracker.core.ui.component.SingleStat
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.misc.R
+import com.harish.habittracker.core.ui.component.AppDefaultAppBar
+import com.harish.habittracker.core.ui.component.SingleStat
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.misc.R
 import java.net.URI
 import java.time.Instant
 import java.time.LocalDateTime
 import java.time.ZoneOffset
-import com.ofalvai.habittracker.core.ui.R as commonR
+import com.harish.habittracker.core.ui.R as commonR
 
 val initialSummary = DataSummary(habitCount = 0, actionCount = 0, lastActivity = null)
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard
+package com.harish.habittracker.feature.dashboard.ui.dashboard
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -50,12 +50,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.component.HorizontalGrid
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.model.DashboardConfig
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.component.HorizontalGrid
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.model.DashboardConfig
+import com.harish.habittracker.core.ui.R as coreR
 
 
 @Composable

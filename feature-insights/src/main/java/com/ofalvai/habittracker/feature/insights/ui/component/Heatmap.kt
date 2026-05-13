@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.ui.component
+package com.harish.habittracker.feature.insights.ui.component
 
 import androidx.annotation.ColorInt
 import androidx.compose.foundation.background
@@ -61,19 +61,19 @@ import androidx.compose.ui.window.Popup
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
 import com.kizitonwose.calendar.core.CalendarDay
 import com.kizitonwose.calendar.core.DayPosition
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.ui.component.CalendarDayLegend
-import com.ofalvai.habittracker.core.ui.component.CalendarPager
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.component.HorizontalMonthCalendar
-import com.ofalvai.habittracker.core.ui.recomposition.StableHolder
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.insights.R
-import com.ofalvai.habittracker.feature.insights.model.HeatmapMonth
-import com.ofalvai.habittracker.feature.insights.ui.InsightsIcons
-import com.ofalvai.habittracker.feature.insights.ui.InsightsViewModel
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.ui.component.CalendarDayLegend
+import com.harish.habittracker.core.ui.component.CalendarPager
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.component.HorizontalMonthCalendar
+import com.harish.habittracker.core.ui.recomposition.StableHolder
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.insights.R
+import com.harish.habittracker.feature.insights.model.HeatmapMonth
+import com.harish.habittracker.feature.insights.ui.InsightsIcons
+import com.harish.habittracker.feature.insights.ui.InsightsViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.collections.immutable.persistentMapOf

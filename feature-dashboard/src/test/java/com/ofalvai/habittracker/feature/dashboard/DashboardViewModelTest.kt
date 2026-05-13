@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
 import app.cash.turbine.test
-import com.ofalvai.habittracker.core.common.AppPreferences
-import com.ofalvai.habittracker.core.common.OnboardingManager
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.ActionHistory
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.core.testing.MainCoroutineRule
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.feature.dashboard.repo.ActionRepository
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.DashboardEvent
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.DashboardViewModel
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
+import com.harish.habittracker.core.common.AppPreferences
+import com.harish.habittracker.core.common.OnboardingManager
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.ActionHistory
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.core.testing.MainCoroutineRule
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.feature.dashboard.repo.ActionRepository
+import com.harish.habittracker.feature.dashboard.ui.dashboard.DashboardEvent
+import com.harish.habittracker.feature.dashboard.ui.dashboard.DashboardViewModel
+import com.harish.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -42,10 +42,10 @@ import org.junit.Rule
 import org.junit.Test
 import org.mockito.kotlin.*
 import java.time.Instant
-import com.ofalvai.habittracker.core.database.entity.Action as ActionEntity
-import com.ofalvai.habittracker.core.database.entity.Habit as HabitEntity
-import com.ofalvai.habittracker.core.database.entity.Habit.Color as ColorEntity
-import com.ofalvai.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
+import com.harish.habittracker.core.database.entity.Action as ActionEntity
+import com.harish.habittracker.core.database.entity.Habit as HabitEntity
+import com.harish.habittracker.core.database.entity.Habit.Color as ColorEntity
+import com.harish.habittracker.core.database.entity.HabitWithActions as HabitWithActionsEntity
 
 class DashboardViewModelTest {
 

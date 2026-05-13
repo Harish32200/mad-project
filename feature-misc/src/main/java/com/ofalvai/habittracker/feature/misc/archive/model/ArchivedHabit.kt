@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.archive.model
+package com.harish.habittracker.feature.misc.archive.model
 
 import androidx.compose.runtime.Immutable
-import com.ofalvai.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitId
 import java.time.Instant
 
 @Immutable

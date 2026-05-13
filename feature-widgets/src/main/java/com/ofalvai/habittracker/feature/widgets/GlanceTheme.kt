@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.widgets
+package com.harish.habittracker.feature.widgets
 
 import android.content.res.Configuration
 import androidx.compose.material3.ColorScheme
@@ -26,12 +26,12 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.glance.GlanceComposable
 import androidx.glance.LocalContext
-import com.ofalvai.habittracker.core.ui.theme.DarkAppColors
-import com.ofalvai.habittracker.core.ui.theme.DarkColors
-import com.ofalvai.habittracker.core.ui.theme.LightAppColors
-import com.ofalvai.habittracker.core.ui.theme.LightColors
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.isDynamicThemeAvailable
+import com.harish.habittracker.core.ui.theme.DarkAppColors
+import com.harish.habittracker.core.ui.theme.DarkColors
+import com.harish.habittracker.core.ui.theme.LightAppColors
+import com.harish.habittracker.core.ui.theme.LightColors
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.isDynamicThemeAvailable
 
 @GlanceComposable
 @Composable

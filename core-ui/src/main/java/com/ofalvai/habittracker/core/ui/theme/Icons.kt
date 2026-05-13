@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.theme
+package com.harish.habittracker.core.ui.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
-import com.ofalvai.habittracker.core.ui.R
+import com.harish.habittracker.core.ui.R
 
 object CoreIcons {
 

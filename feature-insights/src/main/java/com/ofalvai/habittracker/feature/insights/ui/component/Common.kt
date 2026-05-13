@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.ui.component
+package com.harish.habittracker.feature.insights.ui.component
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Column
@@ -43,9 +43,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.insights.R as insightsR
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.insights.R as insightsR
 
 @Composable
 fun InsightCard(

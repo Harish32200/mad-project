@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.minicalendar
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view.minicalendar
 
 import androidx.compose.ui.unit.dp
 

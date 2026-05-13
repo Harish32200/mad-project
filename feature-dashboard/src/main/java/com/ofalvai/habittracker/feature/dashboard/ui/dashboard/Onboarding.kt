@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard
+package com.harish.habittracker.feature.dashboard.ui.dashboard
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.animateFloatAsState
@@ -40,9 +40,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.common.OnboardingData
-import com.ofalvai.habittracker.core.common.OnboardingState
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.common.OnboardingData
+import com.harish.habittracker.core.common.OnboardingState
+import com.harish.habittracker.core.ui.theme.PreviewTheme
 import kotlin.math.roundToInt
 
 @Composable

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.model
+package com.harish.habittracker.feature.insights.model
 
 import androidx.annotation.FloatRange
 import androidx.compose.runtime.Immutable
-import com.ofalvai.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitId
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableMap
 import java.time.LocalDate

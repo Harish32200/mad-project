@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.database
+package com.harish.habittracker.core.database
 
 import android.app.Application
 import android.content.SharedPreferences

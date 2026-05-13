@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.recomposition
+package com.harish.habittracker.core.ui.recomposition
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable

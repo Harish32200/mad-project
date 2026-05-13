@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.theme
+package com.harish.habittracker.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

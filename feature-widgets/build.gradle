@@ -5,7 +5,7 @@ plugins {
 apply plugin: 'com.google.devtools.ksp'
 
 android {
-    namespace 'com.ofalvai.habittracker.feature.widgets'
+    namespace 'com.harish.habittracker.feature.widgets'
     buildFeatures {
         compose = true
         composeOptions {

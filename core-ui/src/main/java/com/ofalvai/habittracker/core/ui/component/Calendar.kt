@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.component
+package com.harish.habittracker.core.ui.component
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -51,10 +51,10 @@ import com.kizitonwose.calendar.compose.HorizontalCalendar
 import com.kizitonwose.calendar.compose.rememberCalendarState
 import com.kizitonwose.calendar.core.CalendarDay
 import com.kizitonwose.calendar.core.firstDayOfWeekFromLocale
-import com.ofalvai.habittracker.core.ui.R
-import com.ofalvai.habittracker.core.ui.recomposition.StableHolder
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.R
+import com.harish.habittracker.core.ui.recomposition.StableHolder
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.PreviewTheme
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import java.time.Year

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.addhabit
+package com.harish.habittracker.feature.dashboard.ui.addhabit
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.layout.*
@@ -46,17 +46,17 @@ import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.ui.component.AppDefaultAppBar
-import com.ofalvai.habittracker.core.ui.component.HabitColorPicker
-import com.ofalvai.habittracker.core.ui.component.TextFieldError
-import com.ofalvai.habittracker.core.ui.state.asEffect
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.core.ui.theme.composeColor
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.Suggestions
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.ui.component.AppDefaultAppBar
+import com.harish.habittracker.core.ui.component.HabitColorPicker
+import com.harish.habittracker.core.ui.component.TextFieldError
+import com.harish.habittracker.core.ui.state.asEffect
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.theme.composeColor
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.dashboard.Suggestions
 import kotlinx.collections.immutable.ImmutableList
-import com.ofalvai.habittracker.core.ui.R as coreR
+import com.harish.habittracker.core.ui.R as coreR
 
 @Composable
 fun AddHabitScreen(viewModel: AddHabitViewModel, navigateBack: () -> Unit) {

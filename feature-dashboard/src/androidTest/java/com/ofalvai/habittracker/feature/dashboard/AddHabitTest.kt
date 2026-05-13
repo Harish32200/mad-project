@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard
+package com.harish.habittracker.feature.dashboard
 
 import androidx.compose.ui.test.*
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.testing.BaseInstrumentedTest
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.dashboard.ui.addhabit.AddHabitForm
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.testing.BaseInstrumentedTest
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.dashboard.ui.addhabit.AddHabitForm
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.Assert.assertEquals

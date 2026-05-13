@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.ui.component
+package com.harish.habittracker.feature.insights.ui.component
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -40,15 +40,15 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.ui.component.ErrorView
-import com.ofalvai.habittracker.core.ui.state.Result
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.feature.insights.R
-import com.ofalvai.habittracker.feature.insights.model.TopDayItem
-import com.ofalvai.habittracker.feature.insights.ui.InsightsIcons
-import com.ofalvai.habittracker.feature.insights.ui.InsightsViewModel
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.ui.component.ErrorView
+import com.harish.habittracker.core.ui.state.Result
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.feature.insights.R
+import com.harish.habittracker.feature.insights.model.TopDayItem
+import com.harish.habittracker.feature.insights.ui.InsightsIcons
+import com.harish.habittracker.feature.insights.ui.InsightsViewModel
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 

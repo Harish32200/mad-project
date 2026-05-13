@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.fiveday
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view.fiveday
 
 import androidx.compose.ui.unit.dp
 

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.mapper
+package com.harish.habittracker.feature.insights.mapper
 
-import com.ofalvai.habittracker.core.database.entity.HabitActionCount
-import com.ofalvai.habittracker.core.database.entity.HabitTopDay
-import com.ofalvai.habittracker.core.database.entity.SumActionCountByDay
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.feature.insights.model.BucketIndex
-import com.ofalvai.habittracker.feature.insights.model.HeatmapMonth
-import com.ofalvai.habittracker.feature.insights.model.TopDayItem
-import com.ofalvai.habittracker.feature.insights.model.TopHabitItem
+import com.harish.habittracker.core.database.entity.HabitActionCount
+import com.harish.habittracker.core.database.entity.HabitTopDay
+import com.harish.habittracker.core.database.entity.SumActionCountByDay
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.feature.insights.model.BucketIndex
+import com.harish.habittracker.feature.insights.model.HeatmapMonth
+import com.harish.habittracker.feature.insights.model.TopDayItem
+import com.harish.habittracker.feature.insights.model.TopHabitItem
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.collections.immutable.toImmutableMap
 import java.time.LocalDate
@@ -32,7 +32,7 @@ import java.time.format.TextStyle
 import java.time.temporal.ChronoUnit
 import java.util.Locale
 import kotlin.math.min
-import com.ofalvai.habittracker.core.database.entity.Habit as HabitEntity
+import com.harish.habittracker.core.database.entity.Habit as HabitEntity
 
 private const val maxBucketCount = 5
 

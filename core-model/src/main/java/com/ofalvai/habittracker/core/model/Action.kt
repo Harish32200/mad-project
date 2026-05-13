@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.model
+package com.harish.habittracker.core.model
 
 import androidx.compose.runtime.Immutable
 import java.time.Instant

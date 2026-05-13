@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.compact
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view.compact
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.model.HabitWithActions
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.DayLegend
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.ReorderableHabitList
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.model.HabitWithActions
+import com.harish.habittracker.feature.dashboard.ui.dashboard.ItemMoveEvent
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.DayLegend
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.ReorderableHabitList
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import org.burnoutcrew.reorderable.detectReorderAfterLongPress

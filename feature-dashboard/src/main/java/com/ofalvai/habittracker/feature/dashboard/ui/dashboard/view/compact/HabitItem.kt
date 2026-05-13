@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.compact
+package com.harish.habittracker.feature.dashboard.ui.dashboard.view.compact
 
 import android.os.Vibrator
 import androidx.compose.foundation.background
@@ -52,18 +52,18 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.zIndex
 import androidx.core.content.getSystemService
 import com.airbnb.android.showkase.annotation.ShowkaseComposable
-import com.ofalvai.habittracker.core.model.Action
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.ui.component.HorizontalGrid
-import com.ofalvai.habittracker.core.ui.semantics.habitActionSemantics
-import com.ofalvai.habittracker.core.ui.theme.AppTextStyle
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.core.ui.theme.LocalAppColors
-import com.ofalvai.habittracker.core.ui.theme.PreviewTheme
-import com.ofalvai.habittracker.core.ui.theme.composeColor
-import com.ofalvai.habittracker.feature.dashboard.R
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.view.satisfyingToggleable
+import com.harish.habittracker.core.model.Action
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.ui.component.HorizontalGrid
+import com.harish.habittracker.core.ui.semantics.habitActionSemantics
+import com.harish.habittracker.core.ui.theme.AppTextStyle
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.core.ui.theme.LocalAppColors
+import com.harish.habittracker.core.ui.theme.PreviewTheme
+import com.harish.habittracker.core.ui.theme.composeColor
+import com.harish.habittracker.feature.dashboard.R
+import com.harish.habittracker.feature.dashboard.ui.dashboard.view.satisfyingToggleable
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import java.time.Instant

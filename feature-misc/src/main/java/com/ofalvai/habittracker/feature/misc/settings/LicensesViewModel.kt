@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.misc.settings
+package com.harish.habittracker.feature.misc.settings
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

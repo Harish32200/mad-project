@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.insights.ui
+package com.harish.habittracker.feature.insights.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -30,16 +30,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.ui.component.AppBarOverflowMenuAction
-import com.ofalvai.habittracker.core.ui.component.AppDefaultRootAppBar
-import com.ofalvai.habittracker.core.ui.theme.AppTextStyle
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
-import com.ofalvai.habittracker.feature.insights.ui.component.Heatmap
-import com.ofalvai.habittracker.feature.insights.ui.component.TopDays
-import com.ofalvai.habittracker.feature.insights.ui.component.TopHabits
-import com.ofalvai.habittracker.core.ui.R as coreR
-import com.ofalvai.habittracker.feature.insights.R as insightsR
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.ui.component.AppBarOverflowMenuAction
+import com.harish.habittracker.core.ui.component.AppDefaultRootAppBar
+import com.harish.habittracker.core.ui.theme.AppTextStyle
+import com.harish.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.feature.insights.ui.component.Heatmap
+import com.harish.habittracker.feature.insights.ui.component.TopDays
+import com.harish.habittracker.feature.insights.ui.component.TopHabits
+import com.harish.habittracker.core.ui.R as coreR
+import com.harish.habittracker.feature.insights.R as insightsR
 
 @Composable
 fun InsightsScreen(

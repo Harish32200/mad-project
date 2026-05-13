@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.ofalvai.habittracker.core.testing'
+    namespace 'com.harish.habittracker.core.testing'
 }
 
 dependencies {

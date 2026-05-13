@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.feature.widgets
+package com.harish.habittracker.feature.widgets
 
-import com.ofalvai.habittracker.core.model.Habit
-import com.ofalvai.habittracker.core.model.HabitDayView
-import com.ofalvai.habittracker.core.database.entity.Habit as HabitEntity
-import com.ofalvai.habittracker.core.database.entity.HabitDayView as HabitDayViewEntity
+import com.harish.habittracker.core.model.Habit
+import com.harish.habittracker.core.model.HabitDayView
+import com.harish.habittracker.core.database.entity.Habit as HabitEntity
+import com.harish.habittracker.core.database.entity.HabitDayView as HabitDayViewEntity
 
 fun HabitDayViewEntity.toModel() = HabitDayView(
     habit = this.habit.toModel(),

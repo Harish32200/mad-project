@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.ui.state
+package com.harish.habittracker.core.ui.state
 
 import android.annotation.SuppressLint
 import androidx.compose.runtime.*
