@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker
+package com.harish.habittracker
 
 import android.app.Application
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.feature.misc.settings.AppInfo
-import com.ofalvai.habittracker.feature.widgets.base.WidgetUpdater
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.feature.misc.settings.AppInfo
+import com.harish.habittracker.feature.widgets.base.WidgetUpdater
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker
+package com.harish.habittracker
 
 import android.app.Application
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.feature.widgets.base.WidgetUpdater
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.feature.widgets.base.WidgetUpdater
 import dagger.hilt.android.HiltAndroidApp
 import logcat.AndroidLogcatLogger
 import logcat.LogPriority

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.ui.settings
+package com.harish.habittracker.ui.settings
 
-import com.ofalvai.habittracker.core.database.HabitDao
-import com.ofalvai.habittracker.core.database.entity.Action
-import com.ofalvai.habittracker.core.database.entity.Habit
+import com.harish.habittracker.core.database.HabitDao
+import com.harish.habittracker.core.database.entity.Action
+import com.harish.habittracker.core.database.entity.Habit
 import java.time.Instant
 import java.time.LocalDate
 import java.time.OffsetDateTime

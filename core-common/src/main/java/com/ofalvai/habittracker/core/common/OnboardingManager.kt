@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.common
+package com.harish.habittracker.core.common
 
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf

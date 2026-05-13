@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.ui
+package com.harish.habittracker.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -44,19 +44,19 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
-import com.ofalvai.habittracker.core.common.AppPreferences
-import com.ofalvai.habittracker.core.common.Telemetry
-import com.ofalvai.habittracker.core.model.HabitId
-import com.ofalvai.habittracker.core.ui.theme.AppTheme
-import com.ofalvai.habittracker.feature.dashboard.ui.addhabit.AddHabitScreen
-import com.ofalvai.habittracker.feature.dashboard.ui.dashboard.DashboardScreen
-import com.ofalvai.habittracker.feature.dashboard.ui.habitdetail.HabitDetailScreen
-import com.ofalvai.habittracker.feature.insights.ui.InsightsScreen
-import com.ofalvai.habittracker.feature.misc.archive.ArchiveScreen
-import com.ofalvai.habittracker.feature.misc.export.ExportScreen
-import com.ofalvai.habittracker.feature.misc.settings.LicensesScreen
-import com.ofalvai.habittracker.feature.misc.settings.SettingsScreen
-import com.ofalvai.habittracker.ui.settings.DebugSettings
+import com.harish.habittracker.core.common.AppPreferences
+import com.harish.habittracker.core.common.Telemetry
+import com.harish.habittracker.core.model.HabitId
+import com.harish.habittracker.core.ui.theme.AppTheme
+import com.harish.habittracker.feature.dashboard.ui.addhabit.AddHabitScreen
+import com.harish.habittracker.feature.dashboard.ui.dashboard.DashboardScreen
+import com.harish.habittracker.feature.dashboard.ui.habitdetail.HabitDetailScreen
+import com.harish.habittracker.feature.insights.ui.InsightsScreen
+import com.harish.habittracker.feature.misc.archive.ArchiveScreen
+import com.harish.habittracker.feature.misc.export.ExportScreen
+import com.harish.habittracker.feature.misc.settings.LicensesScreen
+import com.harish.habittracker.feature.misc.settings.SettingsScreen
+import com.harish.habittracker.ui.settings.DebugSettings
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

@@ -15,7 +15,7 @@
  */
 @file:OptIn(ExperimentalAnimationApi::class)
 
-package com.ofalvai.habittracker.ui
+package com.harish.habittracker.ui
 
 import android.os.Bundle
 import androidx.compose.animation.AnimatedContentTransitionScope
@@ -31,7 +31,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.ofalvai.habittracker.core.ui.theme.AppTransition
+import com.harish.habittracker.core.ui.theme.AppTransition
 
 sealed class Screen constructor(
     val route: String,

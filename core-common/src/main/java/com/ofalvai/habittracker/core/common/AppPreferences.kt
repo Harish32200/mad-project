@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.common
+package com.harish.habittracker.core.common
 
 import android.content.SharedPreferences
 import kotlinx.coroutines.flow.MutableStateFlow

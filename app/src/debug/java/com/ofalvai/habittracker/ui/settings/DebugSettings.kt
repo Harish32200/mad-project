@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.ui.settings
+package com.harish.habittracker.ui.settings
 
 import androidx.compose.runtime.*
 import androidx.compose.ui.platform.LocalContext
@@ -22,8 +22,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.airbnb.android.showkase.annotation.ShowkaseRoot
 import com.airbnb.android.showkase.annotation.ShowkaseRootModule
 import com.airbnb.android.showkase.models.Showkase
-import com.ofalvai.habittracker.feature.misc.settings.NavigationSetting
-import com.ofalvai.habittracker.feature.misc.settings.SettingHeader
+import com.harish.habittracker.feature.misc.settings.NavigationSetting
+import com.harish.habittracker.feature.misc.settings.SettingHeader
 
 @ShowkaseRoot
 class AppRootModule : ShowkaseRootModule

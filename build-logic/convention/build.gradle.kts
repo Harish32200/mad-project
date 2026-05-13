@@ -2,7 +2,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group = "com.ofalvai.habittracker.buildlogic"
+group = "com.harish.habittracker.buildlogic"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17

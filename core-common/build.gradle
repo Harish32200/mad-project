@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.ofalvai.habittracker.core.common'
+    namespace 'com.harish.habittracker.core.common'
 
     buildFeatures {
         buildConfig true

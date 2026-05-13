@@ -26,7 +26,7 @@ apply plugin: 'app.cash.licensee'
 apply plugin: 'com.bugsnag.android.gradle'
 
 ext {
-    PACKAGE_NAME = "com.ofalvai.habittracker"
+    PACKAGE_NAME = "com.harish.habittracker"
     API_KEY_BUGSNAG = "2e13a542ae3ed09ad42a5c82444925af"
     URL_PRIVACY_POLICY = "https://habit-builder-97708.web.app/privacy-policy.html"
     URL_SOURCE_CODE = "https://github.com/harish/HabitTracker"

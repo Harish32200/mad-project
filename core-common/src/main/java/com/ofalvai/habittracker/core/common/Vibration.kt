@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.core.common
+package com.harish.habittracker.core.common
 
 val VIBRATE_PATTERN_TOGGLE = longArrayOf(0, 75, 50, 75)

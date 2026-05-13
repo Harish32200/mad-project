@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.ui
+package com.harish.habittracker.ui
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material3.Icon
@@ -29,8 +29,8 @@ import androidx.navigation.NavDestination
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.ofalvai.habittracker.R
-import com.ofalvai.habittracker.core.ui.theme.CoreIcons
+import com.harish.habittracker.R
+import com.harish.habittracker.core.ui.theme.CoreIcons
 
 @Composable
 fun AppNavigationBar(navController: NavController) {

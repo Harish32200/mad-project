@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ofalvai.habittracker.ui.settings
+package com.harish.habittracker.ui.settings
 
 import androidx.compose.runtime.Composable
 
