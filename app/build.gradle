@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Olivér Falvai
+ * Copyright 2022 harish
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ ext {
     PACKAGE_NAME = "com.ofalvai.habittracker"
     API_KEY_BUGSNAG = "2e13a542ae3ed09ad42a5c82444925af"
     URL_PRIVACY_POLICY = "https://habit-builder-97708.web.app/privacy-policy.html"
-    URL_SOURCE_CODE = "https://github.com/ofalvai/HabitTracker"
+    URL_SOURCE_CODE = "https://github.com/harish/HabitTracker"
 }
 
 def useReleaseKeystore = rootProject.file("release/app-release.jks").exists()

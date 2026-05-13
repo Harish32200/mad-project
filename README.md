@@ -1,6 +1,6 @@
 # Habit Builder [![Build Status](https://app.bitrise.io/app/956ea5e751ec6be4/status.svg?token=WbwlLF41eOlFjQWJ5WFEMw&branch=main)](https://app.bitrise.io/app/956ea5e751ec6be4)
 
-[<img src="https://user-images.githubusercontent.com/1694986/111364968-24a0fa00-864f-11eb-88aa-4b4127d8e012.png?width=100" width="200"></img>](https://play.google.com/store/apps/details?id=com.ofalvai.habittracker) [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="200"></img>](https://apt.izzysoft.de/fdroid/index/apk/com.ofalvai.habittracker/)
+[<img src="https://user-images.githubusercontent.com/1694986/111364968-24a0fa00-864f-11eb-88aa-4b4127d8e012.png?width=100" width="200"></img>](https://play.google.com/store/apps/details?id=com.harish.habittracker) [<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png" width="200"></img>](https://apt.izzysoft.de/fdroid/index/apk/com.harish.habittracker/)
 
 ![Header](docs/feature_graphic.png)
 
@@ -41,11 +41,11 @@ This project is also a testing ground for new technologies I'd like to explore.
 - [Showkase](https://github.com/airbnb/Showkase): UI component browser in debug builds
 - Other interesting bits and integrations:
     - Modular codebase according to best practices
-    - [Gradle convention plugins](https://github.com/ofalvai/HabitTracker/tree/main/build-logic) for configuring modules
+    - [Gradle convention plugins](https://github.com/harish/HabitTracker/tree/main/build-logic) for configuring modules
     - [Licensee](https://github.com/cashapp/licensee): 3rd party dependency validation, license report JSON for the Licenses screen
     - [Ruler](https://github.com/spotify/ruler): a Gradle plugin that measures app size and libraries contributing to it
-    - [Gradle version catalog](https://github.com/ofalvai/HabitTracker/blob/main/gradle/libs.versions.toml)
-    - [Renovate](https://github.com/ofalvai/HabitTracker/issues/10): Automating dependency update PRs (works with Gradle version catalogs!)
+    - [Gradle version catalog](https://github.com/harish/HabitTracker/blob/main/gradle/libs.versions.toml)
+    - [Renovate](https://github.com/harish/HabitTracker/issues/10): Automating dependency update PRs (works with Gradle version catalogs!)
     - [Gradle dependency analysis](https://github.com/autonomousapps/dependency-analysis-android-gradle-plugin): For automatically detecting unused dependencies and other common mistakes
 
 ## Development
@@ -60,7 +60,7 @@ This project is also a testing ground for new technologies I'd like to explore.
 ## License
 
 ```
-   Copyright 2023 Olivér Falvai
+   Copyright 2023 harish
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.

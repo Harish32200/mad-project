@@ -1,7 +1,7 @@
 import org.gradle.jvm.toolchain.JavaLanguageVersion
 
 /*
- * Copyright 2022 Olivér Falvai
+ * Copyright 2022 harish
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
